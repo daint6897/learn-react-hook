@@ -23,10 +23,10 @@ function Index(props) {
   }
 
   //custom hook
-  const randomText = useRandomText();
+  // const randomText = useRandomText();
   return (
     <React.Fragment>
-      <h3>{randomText}</h3>
+      {/* <h3>{randomText}</h3> */}
       <div onClick={handTextClick}>{text}</div>
       <TodoListIndex />
     </React.Fragment>
